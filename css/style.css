@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'ONE-Mobile-POP';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+  @font-face {
+  font-family: 'iceHimchan-Rg';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceHimchan-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  }
+  body{
+    display: flex; 
+    width: 100vw; 
+    height: 100vh; 
+    justify-content: center; 
+    align-items: center;
+  }
+  .container{ 
+    width: 500px; 
+    height: 500px; 
+    background-color: #ffd1db; 
+    border-radius: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+  }
+  h1{
+    font-family: 'ONE-Mobile-POP';
+    font-size: 44px;
+    color:#ee759e;
+    text-shadow: 3px 3px 3px #fca6a9;
+  }
+  h3{
+    font-family: 'iceHimchan-Rg';
+    color: #777;
+  }
+  input{
+    border: 1px solid #ee759e; 
+    border-radius: 5px; 
+    padding: 10px ; 
+    margin-bottom: 10px; 
+    width: 60%; 
+    outline-color:  palevioletred;
+  }
+  input::placeholder{
+    transition: .3s;
+    font-family: 'iceHimchan-Rg';
+    font-size: 14px;
+  }
+  input:focus::placeholder{opacity: 0;}
+  button{
+    border: 1px solid #ea91af; 
+    border-radius: 5px; 
+    font-size: 20px; 
+    font-family: 'iceHimchan-Rg';
+    color: #fff; 
+    background-color: #feb6c1; 
+    padding: 10px 20px; 
+    cursor: pointer;
+  }
+  #modal{
+    display:none; 
+    position:fixed; 
+    width: 410px;
+    top: 51%; left: 50.8%; 
+    transform:translate(-50%, -50%); 
+    background-color: #f56eb2;
+    font-size: 23px;
+    text-align: center;
+    color: #fff; 
+    font-family: 'iceHimchan-Rg';
+    padding:20px; 
+    border-radius:10px; 
+    box-shadow: 0px 0px 10px rgba(170, 64, 117, 0.5);
+  }
+  #loading{
+    display: none;
+    width: 510px; 
+    height: 510px; 
+    border-radius: 10px; 
+    position: fixed;
+    top: 50%; left: 50%; 
+    transform:translate(-50%, -50%); 
+  }
