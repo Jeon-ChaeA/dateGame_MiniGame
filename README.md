@@ -41,7 +41,7 @@
 
 ## 🔗 링크
 
-- [날짜맞추기게임](https://jeon-chaea.github.io/dateGame/)
+- [날짜맞추기게임](https://jeon-chaea.github.io/dateGame_MiniGame/)
 
 
 
